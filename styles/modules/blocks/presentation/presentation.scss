@@ -1,0 +1,19 @@
+.presentation {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "title phone hog"
+    "buttons phone hog";
+}
+
+@media screen and (max-width: 360px) {
+  .presentation {
+    grid-template-columns: 300px 60px;
+  grid-template-areas:
+  "title title"
+  "phone hog"
+  "buttons buttons";
+  }
+  
+}

@@ -1,0 +1,17 @@
+.presentation {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "title phone hog" "buttons phone hog";
+}
+
+@media screen and (max-width: 360px) {
+  .presentation {
+    -ms-grid-columns: 300px 60px;
+        grid-template-columns: 300px 60px;
+        grid-template-areas: "title title" "phone hog" "buttons buttons";
+  }
+}
+/*# sourceMappingURL=presentation.css.map */

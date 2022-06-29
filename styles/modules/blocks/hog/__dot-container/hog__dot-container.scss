@@ -1,0 +1,15 @@
+.hog__dot-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .hog__dot-container {
+    gap: 10px;
+    
+  }
+  
+}

@@ -1,0 +1,13 @@
+.presentation__phone {
+  margin-left: 44px;
+  grid-area: phone;
+}
+
+
+@media screen and (max-width: 768px) {
+  .presentation__phone {
+    display: none;
+  }
+  
+  
+}

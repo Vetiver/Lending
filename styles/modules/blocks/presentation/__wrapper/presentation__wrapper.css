@@ -1,0 +1,12 @@
+.presentation__wrapper {
+  position: absolute;
+  bottom: 215px;
+  left: 115px;
+}
+
+@media screen and (max-width: 768px) {
+  .presentation__wrapper {
+    display: none;
+  }
+}
+/*# sourceMappingURL=presentation__wrapper.css.map */

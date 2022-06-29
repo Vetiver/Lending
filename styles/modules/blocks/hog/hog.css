@@ -1,0 +1,13 @@
+.hog {
+  margin-top: 196px;
+  margin-left: 114px;
+  grid-area: hog;
+}
+
+@media screen and (max-width: 768px) {
+  .hog {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=hog.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,KAAK;EACb,IAAI,EAAE,KAAK;CACZ;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,sBAAsB,CAAC;IACrB,OAAO,EAAE,IAAI;GACd",
+    "sources": [
+        "presentation__wrapper.scss"
+    ],
+    "names": [],
+    "file": "presentation__wrapper.css"
+}

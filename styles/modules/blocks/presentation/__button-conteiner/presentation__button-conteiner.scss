@@ -1,0 +1,14 @@
+.presentation__button-conteiner {
+  position: relative;
+  @include flex(row, stretch);
+  margin-top: 56px;
+  gap: 24px;
+  grid-area: buttons;
+}
+
+@media screen and (max-width: 768px) {
+  .presentation__button-conteiner {
+    gap: 8px;
+  }
+  
+}

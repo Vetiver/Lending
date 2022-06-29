@@ -1,0 +1,33 @@
+.slogan-text {
+  @include resetListStyles();
+  width: 602px;
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 750;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+
+  letter-spacing: -0.5px;
+
+  /* Черный */
+
+  color: #090909;
+  font-stretch: 151;
+  font-variation-settings: 'GRAD' 0, 'slnt' 0, 'XTRA' 499, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+  grid-area: title;
+}
+
+@media screen and (max-width: 360px) {
+  .slogan-text {
+    width: 327px;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    text-align: center;
+    /* Черный */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}

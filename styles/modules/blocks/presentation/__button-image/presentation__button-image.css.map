@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,2BAA2B,CAAC;EAC1B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACb;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,2BAA2B,CAAC;IAC1B,OAAO,EAAE,IAAI;GACd",
+    "sources": [
+        "presentation__button-image.scss"
+    ],
+    "names": [],
+    "file": "presentation__button-image.css"
+}

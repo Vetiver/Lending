@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACtB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,IAAI;EACZ,IAAI,EAAE,IAAI;CACX",
+    "sources": [
+        "mobile-window__wrapper.scss"
+    ],
+    "names": [],
+    "file": "mobile-window__wrapper.css"
+}

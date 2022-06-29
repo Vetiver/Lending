@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;CACpB;;AAGD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,eAAe,CAAC;IACd,cAAc,EAAE,MAAM;GACvB",
+    "sources": [
+        "hog__dot-place.scss"
+    ],
+    "names": [],
+    "file": "hog__dot-place.css"
+}

@@ -1,0 +1,14 @@
+.presentation__phone-mobile {
+  display: none;
+  margin-top: 16px;
+  width: 186px;
+  margin-left: 87px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .presentation__phone-mobile {
+    display: block;
+  }
+}
+/*# sourceMappingURL=presentation__phone-mobile.css.map */

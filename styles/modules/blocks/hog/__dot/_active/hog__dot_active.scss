@@ -1,0 +1,13 @@
+.hog__dot_active {
+  padding: 0;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .hog__dot_active {
+    width: 12px;
+    height: 12px;
+    padding-left: 2px;
+  }
+}

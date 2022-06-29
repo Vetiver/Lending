@@ -1,0 +1,12 @@
+.hog__dot-place {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hog__dot-place {
+    flex-direction: column;
+  }
+  
+}

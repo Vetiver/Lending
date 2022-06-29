@@ -1,0 +1,24 @@
+.lern-more__button-text {
+  max-width: 183px;
+  @include resetButtonStyles();
+  @include flex(space-between, center);
+  margin-top: 43px;
+  margin-right: auto;
+  margin-left: 13.64px;
+
+  font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    letter-spacing: 0.25px;
+
+    /* Черный */
+
+    color: #090909;
+    font-stretch: 151;
+    font-variation-settings: 'GRAD' 0, 'slnt' 0, 'XTRA' 499, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+
+}

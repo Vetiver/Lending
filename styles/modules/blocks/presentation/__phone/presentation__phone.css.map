@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,KAAK;CACjB;;AAGD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,oBAAoB,CAAC;IACnB,OAAO,EAAE,IAAI;GACd",
+    "sources": [
+        "presentation__phone.scss"
+    ],
+    "names": [],
+    "file": "presentation__phone.css"
+}

@@ -1,0 +1,14 @@
+.mobile-window {
+  width: 360px;
+  display: none;
+  position: absolute;
+  bottom: 440px;
+  background: #F5F5F5;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-window {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=mobile-window.css.map */

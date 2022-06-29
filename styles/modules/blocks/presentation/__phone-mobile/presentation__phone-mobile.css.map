@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,2BAA2B,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;EACjB,QAAQ,EAAE,QAAQ;CACrB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,2BAA2B,CAAC;IACxB,OAAO,EAAE,KAAK;GAEjB",
+    "sources": [
+        "presentation__phone-mobile.scss"
+    ],
+    "names": [],
+    "file": "presentation__phone-mobile.css"
+}

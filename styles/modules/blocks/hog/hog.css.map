@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,KAAK;EACjB,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,GAAG;CACf;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,IAAI,CAAC;IACH,UAAU,EAAE,IAAI;IAChB,WAAW,EAAE,GAAG;GACjB",
+    "sources": [
+        "hog.scss"
+    ],
+    "names": [],
+    "file": "hog.css"
+}
