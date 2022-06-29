@@ -1,21 +1,13 @@
-.page__container > .header,
-.page__container > .main,
-.page__container > .content {
-  padding-left: 158px;
+.page__container {
+  max-width: 1130px;
+  @include flex(center, center);
+  flex-direction: column;
+  padding-top: 52px;
 }
 
-@media screen and(max-width: 1024px) {
-  .page__container > .header,
-  .page__container > .content {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-}
-
-@media screen and(max-width: $tablet) {
-  .page__container > .header,
-  .page__container > .content {
-    padding-left: 18px;
-    padding-right: 18px;
+@media screen and (max-width: 360px) {
+  .page__container {
+    max-width: 100vw;
+    padding-top: 16px;
   }
 }

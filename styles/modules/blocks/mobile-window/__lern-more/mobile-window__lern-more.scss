@@ -1,4 +1,4 @@
-.mobile-window__lern-more {
+.mobile-window__learn-more {
   max-width: 183px;
   @include resetButtonStyles();
   @include flex(space-between, center);
@@ -7,4 +7,3 @@
   margin-left: auto;
   align-items: baseline;
 }
-

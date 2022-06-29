@@ -1,14 +1,6 @@
 .presentation__button-text {
-  font-family: 'Roboto Flex';
-  font-style: normal;
-  font-weight: 550;
-  font-size: 14px;
-  line-height: 20px;
-  /* identical to box height, or 143% */
+  font-family: "Roboto Flex";
+  @include font(14px, 550, 1.43, normal);
   letter-spacing: 0.25px;
-  /* Черный */
-  color: #090909;
-  font-stretch: 151;
-  font-variation-settings: 'GRAD' 0, 'slnt' 0, 'XTRA' 499, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
   padding-left: 13.64px;
 }

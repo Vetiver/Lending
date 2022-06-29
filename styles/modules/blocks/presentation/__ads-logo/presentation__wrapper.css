@@ -1,0 +1,15 @@
+.presentation__ads-logo {
+  position: absolute;
+  bottom: 190px;
+  left: 115px;
+}
+
+@media screen and (max-width: 360px) {
+  .presentation__ads-logo {
+    bottom: 19px;
+    left: 63px;
+    max-width: 100px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=presentation__wrapper.css.map */

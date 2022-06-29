@@ -1,0 +1,19 @@
+.presentation__button-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  margin-top: 56px;
+  gap: 24px;
+  grid-area: buttons;
+}
+
+@media screen and (max-width: 360px) {
+  .presentation__button-container {
+    grid-template-columns: 106px 115px;
+    margin-top: 24px;
+    margin-bottom: 21px;
+    gap: 8px;
+    justify-self: center;
+  }
+}
+/*# sourceMappingURL=presentation__button-conteiner.css.map */

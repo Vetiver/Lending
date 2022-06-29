@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACb;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,sBAAsB,CAAC;IACrB,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;GACb",
+    "sources": [
+        "aside-bar__dot_active.scss"
+    ],
+    "names": [],
+    "file": "aside-bar__dot_active.css"
+}

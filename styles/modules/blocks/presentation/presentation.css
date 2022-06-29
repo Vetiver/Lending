@@ -2,16 +2,20 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "title phone hog" "buttons phone hog";
+  -ms-grid-columns: (max-content)[3];
+      grid-template-columns: repeat(3, -webkit-max-content);
+      grid-template-columns: repeat(3, max-content);
+      grid-template-areas: "title phone aside-bar" "buttons phone aside-bar" "learn-more learn-more learn-more";
+  gap: 41px 48px;
 }
 
 @media screen and (max-width: 360px) {
   .presentation {
-    -ms-grid-columns: 300px 60px;
-        grid-template-columns: 300px 60px;
-        grid-template-areas: "title title" "phone hog" "buttons buttons";
+    -ms-grid-columns: 1fr max-content;
+        grid-template-columns: 1fr -webkit-max-content;
+        grid-template-columns: 1fr max-content;
+        grid-template-areas: "title title" "phone aside-bar" "buttons buttons" "learn-more learn-more";
+    gap: 0;
   }
 }
 /*# sourceMappingURL=presentation.css.map */

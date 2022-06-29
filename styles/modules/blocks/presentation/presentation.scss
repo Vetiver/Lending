@@ -1,19 +1,22 @@
 .presentation {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, max-content);
   grid-template-areas:
-    "title phone hog"
-    "buttons phone hog";
+    "title phone aside-bar"
+    "buttons phone aside-bar"
+    "learn-more learn-more learn-more";
+  gap: 41px 48px;
 }
 
 @media screen and (max-width: 360px) {
   .presentation {
-    grid-template-columns: 300px 60px;
-  grid-template-areas:
-  "title title"
-  "phone hog"
-  "buttons buttons";
+    grid-template-columns: 1fr max-content;
+    grid-template-areas:
+      "title title"
+      "phone aside-bar"
+      "buttons buttons"
+      "learn-more learn-more";
+    gap: 0;
   }
-  
 }

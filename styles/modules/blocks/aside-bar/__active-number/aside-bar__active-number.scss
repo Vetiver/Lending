@@ -1,0 +1,19 @@
+.aside-bar__active-number {
+  @include resetListStyles();
+  @include font(24px, 750, 1.2, normal);
+  display: none;
+  margin-left: 10px;
+  width: 28px;
+  font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #5337ff;
+}
+
+@media screen and (max-width: 360px) {
+  .aside-bar__active-number {
+    width: 14px;
+    font-size: 10px;
+    margin: 4px 0 0;
+    padding: 0 0 0 2px;
+  }
+}

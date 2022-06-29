@@ -9,40 +9,28 @@
 
 /* header */
 @import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__logo/header__logo.scss";
 
-/* main */
-@import "./modules/blocks/content/content.scss";
+/* title */
+@import "./modules/blocks/title/title.scss";
 
 /* presentation */
 @import "./modules/blocks/presentation/presentation.scss";
-@import "./modules/blocks/presentation/__button-conteiner/presentation__button-conteiner.scss";
 @import "./modules/blocks/presentation/__phone/presentation__phone.scss";
+@import "./modules/blocks/presentation//__button-container/presentation__button-container.scss";
 @import "./modules/blocks/presentation/__button-text/presentation__button-text.scss";
-@import "./modules/blocks/presentation/__wrapper/presentation__wrapper.scss";
 @import "./modules/blocks/presentation/__button-image/presentation__button-image.scss";
-@import "./modules/blocks/presentation/__phone-mobile/presentation__phone-mobile.scss";
+@import "./modules/blocks/presentation/__ads-logo/presentation__ads-logo.scss";
 
+/* aside-bar */
+@import "./modules/blocks/aside-bar/aside-bar.scss";
+@import "./modules/blocks/aside-bar/__dot/aside-bar__dot.scss";
+@import "./modules/blocks/aside-bar/__dot-container/aside-bar__dot-container.scss";
+@import "./modules/blocks/aside-bar/__dot-place/aside-bar__dot-place.scss";
+@import "./modules/blocks/aside-bar/__active-number/aside-bar__active-number.scss";
+@import "./modules/blocks/aside-bar/__dot/_active/aside-bar__dot_active.scss";
+@import "./modules/blocks/aside-bar/__active-number/_active/aside-bar__active-number_active.scss";
 
-/* slogan-text */
-@import "./modules/blocks/slogan-text/slogan-text.scss";
-
-/* hog */
-@import "./modules/blocks/hog/hog.scss";
-@import "./modules/blocks/hog/__dot/hog__dot.scss";
-@import "./modules/blocks/hog/__dot-container/hog__dot-container.scss";
-@import "./modules/blocks/hog/__dot-place/hog__dot-place.scss";
-@import "./modules/blocks/hog/__active-number/hog__active-number.scss";
-@import "./modules/blocks/hog/__dot/_active/hog__dot_active.scss";
-@import "./modules/blocks/hog/__active-number/_active/hog__active-number_active.scss";
-
-
-/* mobile-width */
-@import "./modules/blocks/mobile-window/mobile-window.scss";
-@import "./modules/blocks/mobile-window/__button-container/mobile-window__button-container.scss";
-@import "./modules/blocks/mobile-window/__wrapper/mobile-window__wrapper.scss";
-@import "./modules/blocks/mobile-window/__lern-more/mobile-window__lern-more.scss";
-@import "./modules/blocks/mobile-window/__button-text/mobile-window__button-text.scss";
-
-/* lern-more */
-@import "./modules/blocks/lern-more/lern-more.scss";
-@import "./modules/blocks/lern-more/__button-text/lern-more__button-text.scss";
+/* learn-more */
+@import "./modules/blocks/learn-more/learn-more.scss";
+@import "./modules/blocks/learn-more/__button-text/learn-more__button-text.scss";

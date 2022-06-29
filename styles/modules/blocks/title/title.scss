@@ -1,0 +1,19 @@
+.title {
+  @include resetListStyles();
+  @include font(48px, 750, 1, normal);
+  max-width: 600px;
+  font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.5px;
+  grid-area: title;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 360px) {
+  .title {
+    max-width: 320px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+  }
+}

@@ -1,13 +1,17 @@
 .presentation__phone {
-  margin-left: 44px;
   grid-area: phone;
+  background: url(../../../../../images/pictures/phone.png);
+  width: 312px;
+  height: 631px;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
   .presentation__phone {
-    display: none;
+    display: block;
+    margin-top: 16px;
+    background: url(../../../../../images/pictures/phoneMob.png);
+    width: 186px;
+    height: 327px;
+    justify-self: flex-end;
   }
-  
-  
 }

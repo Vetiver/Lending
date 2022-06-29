@@ -1,0 +1,11 @@
+.aside-bar__dot-place {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 360px) {
+  .aside-bar__dot-place {
+    flex-direction: column;
+  }
+}
+/*# sourceMappingURL=aside-bar__dot-place.css.map */

@@ -1,0 +1,24 @@
+.presentation__button-container {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (max-content)[2];
+      grid-template-columns: repeat(2, -webkit-max-content);
+      grid-template-columns: repeat(2, max-content);
+  margin-top: 56px;
+  gap: 24px;
+  grid-area: buttons;
+}
+
+@media screen and (max-width: 360px) {
+  .presentation__button-container {
+    -ms-grid-columns: 106px 115px;
+        grid-template-columns: 106px 115px;
+    margin-top: 24px;
+    margin-bottom: 21px;
+    gap: 8px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
+/*# sourceMappingURL=presentation__button-container.css.map */

@@ -1,0 +1,17 @@
+.aside-bar {
+  margin-left: 66px;
+  grid-area: aside-bar;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 54px;
+}
+
+@media screen and (max-width: 360px) {
+  .aside-bar {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+  }
+}
+/*# sourceMappingURL=aside-bar.css.map */

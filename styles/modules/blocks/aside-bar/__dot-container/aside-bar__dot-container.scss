@@ -1,0 +1,12 @@
+.aside-bar__dot-container {
+  @include resetListStyles();
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media screen and (max-width: 360px) {
+  .aside-bar__dot-container {
+    gap: 10px;
+  }
+}

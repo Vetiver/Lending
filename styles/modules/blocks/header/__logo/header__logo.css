@@ -1,0 +1,13 @@
+.header__logo {
+  width: 108px;
+  height: 32px;
+  display: block;
+}
+
+@media screen and (max-width: 360px) {
+  .header__logo {
+    width: 54px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=header__logo.css.map */

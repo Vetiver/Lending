@@ -1,0 +1,7 @@
+.learn-more__button-text {
+  @include resetButtonStyles();
+  font-family: "Roboto Flex", Arial, Helvetica, sans-serif;
+  @include font(14px, 550, 1.43, normal);
+  letter-spacing: 0.25px;
+  color: #090909;
+}
